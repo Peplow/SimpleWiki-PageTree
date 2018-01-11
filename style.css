@@ -1,0 +1,39 @@
+.simplewiki-pagetree{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.simplewiki-pagetree ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1em;
+}
+
+.simplewiki-pagetree a {
+    display: inline-block;
+}
+
+.simplewiki-pagetree .open > .icon,
+.simplewiki-pagetree .closed > .icon,
+.simplewiki-pagetree .file > .icon{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.simplewiki-pagetree .open > .icon,
+.simplewiki-pagetree .closed > .icon {
+    cursor: pointer;
+}
+
+.simplewiki-pagetree .closed ul > * {
+    display: none;
+}
+
+.simplewiki-pagetree .active{
+    text-decoration: underline;
+}

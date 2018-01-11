@@ -1,0 +1,7 @@
+base   simplewikipagetree
+author David Peplow
+email  david@peplow.net
+date   2018-01-11
+name   SimpleWiki Pagetree
+desc   SimpleWiki PageTree Plugin
+url    https://www.dokuwiki.org/plugin:simplewikipagetree
